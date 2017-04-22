@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\sahders">
+      <UniqueIdentifier>{50a93f83-bff3-4fc9-ba51-bdc52bca3ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Noise">
+      <UniqueIdentifier>{a7f86b8f-2b42-496f-98d1-ecf9461c1381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{997ba42e-2111-423d-b21c-ed2a41702226}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="chunk.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="worldMap.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="terraGen.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="simplexNoise.cpp">
+      <Filter>Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\include\ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\include\ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\include\ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\include\ImGui\examples\opengl3_example\imgui_impl_glfw_gl3.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="lightManager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="chunk.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="worldMap.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="terraGen.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="simplexNoise.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\include\ImGui\examples\opengl3_example\imgui_impl_glfw_gl3.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="colorFunctions.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="lightManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\default.frag">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\lamp.frag">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\normals.frag">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\AmbDifSpec.frag">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\AmbDifSpecSimplex.frag">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\AmbDifSpecPlanet.frag">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\terrain.frag">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\AmbDifSpec.vert">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\AmbDifSpecPlanet.vert">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\AmbDifSpecSimplex.vert">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\default.vert">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\lamp.vert">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\normals.vert">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\terrain.vert">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\sprite.frag">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+    <None Include="resources\shaders\sprite.vert">
+      <Filter>Archivos de recursos\sahders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
